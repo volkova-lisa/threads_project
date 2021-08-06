@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         textView.setText(time);
                     }
                 };
-                //new
+
                 //new thread object - new thread
                 Thread thread = new Thread(runnable);
                 //enabling thread
